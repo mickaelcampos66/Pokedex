@@ -1,0 +1,1 @@
+<img src="<?=$router->generate('home')?>/assets/img/404.png?>" style="margin: auto">

@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+/*HEADER*/
+header{
+
+    width: 900px;
+    margin: 5px auto;
+}
+body {
+
+    font-family: 'Bree Serif', serif;
+    background-color: #c14040;
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.navbar {
+
+    display: flex;
+    background-color: #fff;
+    color: #c14040;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1em;
+
+}
+
+.nav {
+
+    align-self: flex-end;
+}
+
+.navbar-name {
+
+    padding-left: 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #c14040;
+}
+
+.nav-item {
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 1em;
+}
+
+.nav-link {
+    color: #c14040;
+    text-decoration: none;
+
+
+}
+
+/*FOOTER*/
+
+footer {
+
+    margin: 2em auto;
+}
+
+
+
+/* Affichage Principal*/
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    
+}
+
+.card {
+    background-color: #982c2c;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.form-card {
+
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.card--pokemon {
+
+    display: flex;
+
+}
+
+.card--pokemon img {
+
+    width: calc(100%*(1/3));
+    padding: 1em;
+
+}
+
+.card--pokemon article {
+
+    width: calc(100%*(2/3));
+    text-align: left;
+
+}
+
+/* PAGE POKEMON*/
+
+
+.pokemon_type {
+
+    display: inline-block;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.stats {
+
+    width: 100%;
+}
+
+.stats tr {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats__row--1 {
+
+    border: 1px solid black;
+}
+
+.stats--item {
+
+    width: 50%;
+    height: 2em;
+    font-size: 1.5em;
+}
+
+.value {
+
+    text-align: center;
+}
+
+.stats--item--wrapper {
+
+    width: 100%;
+    height: 1em;
+    font-size: 2em;
+    ;
+    background-color: #632B2B;
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+.progress {
+
+
+    height: 100%;
+    background-color: #fff;
+
+
+}
+
+/* PAGE DES TYPES*/
+.types-wrapper {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+article.type {
+    align-items: center;
+    width: 25%;
+    height: 3em;
+    border-radius: 0.5em;
+    padding: auto auto;
+
+}
